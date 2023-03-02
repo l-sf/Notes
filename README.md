@@ -4,7 +4,7 @@
 
 ## 一、Ubuntu系统相关
 
- [ubuntu install & config tutorials](./notes/Ubuntu20.04_install_tutorials.md) 
+1.   [ubuntu install & config tutorials](./notes/Ubuntu20.04_install_tutorials.md) 
 
 
 
