@@ -15,7 +15,6 @@
 
 - home   尽量多     主分区  
 
-
 #### 2	挂载空余分区
 
 1. 在disk应用中找到刚才留下的空白分区，点击创建，例如名字为 `data` 
@@ -196,7 +195,7 @@ export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
-**(附)2.4	CUDA移动与多版本切换**
+(附)2.4	CUDA移动与多版本切换
 
 2.4.1  删除原来的软链接
 
@@ -474,7 +473,7 @@ sudo ln -snf /media/lsf/data/texlive /usr/local/texlive
 
 
 
-## 十、NumNpp——Cpp中的numpy
+## 十、NumCpp——Cpp中的numpy
 
 [github](https://github.com/dpilger26/NumCpp.git) ，像Python中numpy一样非常好用的矩阵计算库！
 
