@@ -295,8 +295,6 @@ sudo make install
 
 ![image-20220415160301049](../imgs/image-20220415160301049.png)
 
-​	**注意：**opencv3.x版本不支持Ampere架构显卡(cuda11.x)，需要opencv4.x版本
-
 #### 4	配置环境变量
 
 ```shell
@@ -560,7 +558,7 @@ cp cmake/config.cmake build
 - 如需用 IR 调试，可以设置 `set(USE_RELAY_DEBUG ON)`，同时设置环境变量 *TVM_LOG_DEBUG*。
 
   > ```bash
-  > export TVM_LOG_DEBUG="ir/transform.cc=1;relay/ir/transform.cc=1"
+  > export TVM_LOG_DEBUG="ir/transform.cc=1,relay/ir/transform.cc=1"
   > ```
 
 - TVM 需要 LLVM 用于 CPU 代码生成工具（Codegen）。推荐使用 LLVM 构建。
